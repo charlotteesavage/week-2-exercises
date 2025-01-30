@@ -8,6 +8,7 @@ using namespace std;
 Student::Student(const std::string &n) : name(n), id(max_id++) {}
 
 Student::~Student()
+{
     cout << "Student " << name << " destroyed." << endl;
 }
 
